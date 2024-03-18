@@ -37,4 +37,8 @@
     </Reference>
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="XCOPY &quot;$(SolutionDir)OWO&quot; &quot;$(TargetDir)\OWO\&quot; /Y /S&#xD;&#xA;XCOPY &quot;$(TargetDir)Underdogs_OWO.dll&quot; &quot;F:\SteamLibrary\steamapps\common\UNDERDOGS\Mods\&quot; /Y&#xD;&#xA;XCOPY &quot;$(TargetDir)OWO.dll&quot; &quot;F:\SteamLibrary\steamapps\common\UNDERDOGS\UserLibs\&quot; /Y&#xD;&#xA;XCOPY &quot;$(TargetDir)OWO&quot; &quot;F:\SteamLibrary\steamapps\common\UNDERDOGS\Mods\OWO\&quot; /Y /S" />
+  </Target>
+
 </Project>
