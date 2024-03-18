@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OWO" Version="2.3.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\net6\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppOneHamsa.VR">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\Il2CppAssemblies\Il2CppOneHamsa.VR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppUnderdogs.Combat.GameEntity">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\Il2CppAssemblies\Il2CppUnderdogs.Combat.GameEntity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppUnderdogs.Root">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\Il2CppAssemblies\Il2CppUnderdogs.Root.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\net6\MelonLoader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>F:\SteamLibrary\steamapps\common\UNDERDOGS\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
